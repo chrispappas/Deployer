@@ -1,7 +1,7 @@
 Deployer
 ========
 
-This is a deployer meant for both Bitbucket and Github hooks implementing Git.
+This is a deployer meant for both Bitbucket and Github hooks implementing Git. Modified from Brandon Summers (post)[http://brandonsummers.name/blog/2012/02/10/using-bitbucket-for-automated-deployments/].
 
 How do I use this?
 ------------------
