@@ -54,7 +54,7 @@ class Deployer
 		if($this->email)
 		{
 			$to = $this->contributor_emails;
-			$subject = "Error deploying from " . $this->remote;
+			$subject = $subject;
 			$message = wordwrap($message, 70, "\r\n");
 			$headers = "From: deployer@micahiriye.com"; // change this if you'd like it to not say it's from my website ; )
 			mail($to, $subject, $message, $headers);
